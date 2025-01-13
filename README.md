@@ -12,14 +12,12 @@ Este espacio está destinado a:
 ## 🚀 Contenido
 
 ### **Proyectos Universitarios**
-- **[Nombre del proyecto 1](ruta_del_proyecto)**: Breve descripción del proyecto.
-- **[Nombre del proyecto 2](ruta_del_proyecto)**: Breve descripción del proyecto.
-- **[Nombre del proyecto 3](ruta_del_proyecto)**: Breve descripción del proyecto.
+- **[Simulación de una EPS(java)](/FinalFundamentos)**
+- **[Reconocimiento de Señales de Tránsito]()**
+- **[Generador Automático de APIs](/Generador-de-APIs-main)**
+- **[Simulación de Venta y Arrendamiento de Equipos de Laboratorio](/Projecto-FIS-main)**
+- **[Simulación de una EPS(Python)](/intento_python - copia (2))**
 
-### **Proyectos Personales**
-- **[Nombre del proyecto 1](ruta_del_proyecto)**: Breve descripción del proyecto.
-- **[Nombre del proyecto 2](ruta_del_proyecto)**: Breve descripción del proyecto.
-- **[Nombre del proyecto 3](ruta_del_proyecto)**: Breve descripción del proyecto.
 
 ## 🌐 Tecnologías Utilizadas
 
