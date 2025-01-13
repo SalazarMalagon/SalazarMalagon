@@ -1,0 +1,93 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Òûáİÿÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(ÌÆ©õ
+J
+java:S3740E"/Provide the parametrized type for this generic.(ù‚’øÿÿÿÿ
+J
+java:S3740n"/Provide the parametrized type for this generic.(èÖÓÈüÿÿÿÿ
+b
+java:S11926"GDefine a constant instead of duplicating this literal "Serif" 14 times.(“Œ„üÿÿÿÿ
+b
+java:S1192‚"FDefine a constant instead of duplicating this literal "Error" 3 times.(†ë—øøÿÿÿÿ
+k	java:S116"QRename this field "Titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+h	java:S116"NRename this field "Nom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+g	java:S116"MRename this field "DM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+i	java:S116"ORename this field "Tipo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+j	java:S116"PRename this field "Apell" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+i	java:S116"ORename this field "Sexo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+g	java:S116"MRename this field "FN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+i	java:S116"ORename this field "Cont" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+g	java:S116"MRename this field "TC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüŒğøÿÿÿÿ
+j	java:S116"PRename this field "MTipo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òûáİÿÿÿÿÿ
+b	java:S116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜Ô
+b	java:S116"MRename this field "NC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜Ô
+f	java:S116"QRename this field "Correo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜Ô
+b	java:S116"MRename this field "FA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜Ô
+b	java:S116"MRename this field "RM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜Ô
+c	java:S116"NRename this field "CID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+f	java:S116"QRename this field "CApell" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+c	java:S116"NRename this field "CTC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+d	java:S116"ORename this field "CNom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+c	java:S116"NRename this field "CNC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+g	java:S116"RRename this field "CCorreo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+c	java:S116"NRename this field "CRM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¨¦ 
+e	java:S116"PRename this field "MSexo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÆ©õ
+c	java:S116"NRename this field "CFN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Èª²
+[
+java:S1659"@Declare "Nom" and all following declarations on a separate line.(ÿüŒğøÿÿÿÿ
+U
+java:S1659"?Declare "NC" and all following declarations on a separate line.(‡˜Ô
+Y
+java:S1659"CDeclare "CApell" and all following declarations on a separate line.(‡¨¦ 
+o
+java:S1450"TRemove the "Apell" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+k
+java:S1450"URemove the "CApell" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+l
+java:S1450"VRemove the "CCorreo" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+h
+java:S1450"RRemove the "CID" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+h
+java:S1450"RRemove the "CNC" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+i
+java:S1450"SRemove the "CNom" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+h
+java:S1450"RRemove the "CRM" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+h
+java:S1450"RRemove the "CTC" field and declare it as a local variable in the relevant methods.(‡¨¦ 
+n
+java:S1450"SRemove the "Cont" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+k
+java:S1450"URemove the "Correo" field and declare it as a local variable in the relevant methods.(‡˜Ô
+l
+java:S1450"QRemove the "DM" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+g
+java:S1450"QRemove the "FA" field and declare it as a local variable in the relevant methods.(‡˜Ô
+l
+java:S1450"QRemove the "FN" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+g
+java:S1450"QRemove the "ID" field and declare it as a local variable in the relevant methods.(‡˜Ô
+j
+java:S1450"TRemove the "MSexo" field and declare it as a local variable in the relevant methods.(ÌÆ©õ
+o
+java:S1450"TRemove the "MTipo" field and declare it as a local variable in the relevant methods.(Òûáİÿÿÿÿÿ
+g
+java:S1450"QRemove the "NC" field and declare it as a local variable in the relevant methods.(‡˜Ô
+m
+java:S1450"RRemove the "Nom" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+g
+java:S1450"QRemove the "RM" field and declare it as a local variable in the relevant methods.(‡˜Ô
+n
+java:S1450"SRemove the "Sexo" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+l
+java:S1450"QRemove the "TC" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+n
+java:S1450"SRemove the "Tipo" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+p
+java:S1450"URemove the "Titulo" field and declare it as a local variable in the relevant methods.(ÿüŒğøÿÿÿÿ
+m
+java:S1450"RRemove the "btn" field and declare it as a local variable in the relevant methods.(Èï÷éûÿÿÿÿ
+H
+java:S1602Ù",Remove useless curly braces around statement(¢†á—ÿÿÿÿÿ

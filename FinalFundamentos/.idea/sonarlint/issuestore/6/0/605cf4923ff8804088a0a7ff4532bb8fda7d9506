@@ -1,0 +1,39 @@
+
+j	java:S116"PRename this field "ANCHO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³íùŸûÿÿÿÿ
+i	java:S116"ORename this field "ALTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³íùŸûÿÿÿÿ
+H
+java:S2387"-"font" is the name of a field in "Component".(Ã»Îéøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(³íùŸûÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(³íùŸûÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Ã»Îéøÿÿÿÿ
+a
+java:S1659"KDeclare "txtDiagnostico" and all following declarations on a separate line.(Ï½äŞ
+^
+java:S1659"CDeclare "lTitle" and all following declarations on a separate line.(ÅâÚúûÿÿÿÿ
+=
+java:S1659""Declare "ALTO" on a separate line.(³íùŸûÿÿÿÿ
+o
+java:S1450"YRemove the "btnGuardar" field and declare it as a local variable in the relevant methods.(®æ§­
+p
+java:S1450"URemove the "lFecha" field and declare it as a local variable in the relevant methods.(ÅâÚúûÿÿÿÿ
+o
+java:S1450"TRemove the "lHora" field and declare it as a local variable in the relevant methods.(ÅâÚúûÿÿÿÿ
+q
+java:S1450"VRemove the "lMedico" field and declare it as a local variable in the relevant methods.(ÅâÚúûÿÿÿÿ
+q
+java:S1450"VRemove the "lNombre" field and declare it as a local variable in the relevant methods.(ÅâÚúûÿÿÿÿ
+p
+java:S1450"URemove the "lTitle" field and declare it as a local variable in the relevant methods.(ÅâÚúûÿÿÿÿ
+j
+java:S1450"TRemove the "panel" field and declare it as a local variable in the relevant methods.(›Ã¶‰
+o
+java:S3252L"YUse static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_ALWAYS".(ÈÙëá
+t
+java:S3252V"YUse static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_ALWAYS".(şµœûÿÿÿÿ
+o
+java:S3252`"YUse static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_ALWAYS".(Õ”¬
+R
+java:S2696–"6Make the enclosing method "static" or remove this set.(ñ¶âëøÿÿÿÿ

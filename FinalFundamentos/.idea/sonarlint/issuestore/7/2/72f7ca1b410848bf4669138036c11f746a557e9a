@@ -1,0 +1,19 @@
+
+f	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÃ°ë
+e	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êì½2
+k	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ ŽÆþÿÿÿÿ
+f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÀÂ‘
+f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±šÝó
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¶ÑÊúÿÿÿÿ
+>
+java:S1604;"(Make this anonymous inner class a lambda(ËŠ”§
+>
+java:S1604E"(Make this anonymous inner class a lambda(µÏñÁ
+>
+java:S1604N"(Make this anonymous inner class a lambda(Þ§Ñ‹
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯¬æ‡
+t	java:S116"ZRename this field "TipoAfiliadoRef" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÑÍ¤ýÿÿÿÿ
+T
+java:S1854Q"9Remove this useless assignment to local variable "cCita".(»–¹Èüÿÿÿÿ
+E
+java:S1481Q"*Remove this unused "cCita" local variable.(»–¹Èüÿÿÿÿ

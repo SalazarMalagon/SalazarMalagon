@@ -1,0 +1,14 @@
+
+e	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠğŠ@
+f	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‡ô®
+f	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‡ô®
+{
+java:S1488>"`Immediately return this expression instead of assigning it to the temporary variable "fechaSQL".(À‰Äîıÿÿÿÿ
+{
+java:S1488L"`Immediately return this expression instead of assigning it to the temporary variable "fechaSQL".(¸û¿”üÿÿÿÿ
+´
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ï‹àÿÿÿÿÿ
+4
+java:S2119"Save and re-use this "Random".(¡Å”¦
+6	java:S131.""Add a default case to this switch.(ŒÚ¹y
+=	java:S108b")Either remove or fill this block of code.(¤‰«5

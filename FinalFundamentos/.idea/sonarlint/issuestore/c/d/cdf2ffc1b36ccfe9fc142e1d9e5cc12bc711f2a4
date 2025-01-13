@@ -1,0 +1,25 @@
+
+o
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(•½³¹
+b
+java:S1192G"GDefine a constant instead of duplicating this literal "Serif" 15 times.(“Œ„üÿÿÿÿ
+K
+java:S1066’"/Merge this if statement with the enclosing one.(­øÓÅüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯¬æ‡
+k	java:S116"QRename this field "Titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éˆûøÿÿÿÿ
+d	java:S116"ORename this field "Espe" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ”Ô
+e	java:S116"PRename this field "MEspe" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆğÖ
+j	java:S116"PRename this field "TCita" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¹Ó³üÿÿÿÿ
+f	java:S116"QRename this field "MTCita" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óàÓ¤
+g	java:S116"MRename this field "MT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àñ·’úÿÿÿÿ
+c	java:S116"NRename this field "MMT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãàÑ
+a	java:S116"LRename this field "H" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á‰‰É
+g	java:S116"MRename this field "MH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÀƒîıÿÿÿÿ
+d	java:S116"ORename this field "Sede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÏ¥ş
+j	java:S116"PRename this field "MSede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÅÜÑùÿÿÿÿ
+i	java:S116 "ORename this field "Dirc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óåÑ‘ùÿÿÿÿ
+j	java:S116!"PRename this field "MDirc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ç‘îûÿÿÿÿ
+k	java:S116""QRename this field "Consul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¾ÏÑúÿÿÿÿ
+g	java:S116#"RRename this field "MConsul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿğç§
+j	java:S116$"PRename this field "Sigui" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÚÇÂûÿÿÿÿ
+d	java:S116%"ORename this field "Ante" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áéáï

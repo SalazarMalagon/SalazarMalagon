@@ -1,0 +1,36 @@
+
+n
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(à·’B
+t
+java:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(íÃÙşÿÿÿÿ
+t
+java:S2293W"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óõà½ÿÿÿÿÿ
+
+java:S1319;"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©‘Â²8¨«ÙºÁ1
+
+java:S1319H"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ëš¤8¨«ÙºÁ1
+’
+java:S1319U"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(•ıºşÿÿÿÿ8¨«ÙºÁ1
+
+java:S1319s"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(íÜ«ß8¨«ÙºÁ1
+g	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹û»€
+q
+java:S2095?"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+q
+java:S2095}"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(éÕÆçøÿÿÿÿ8‡¬ÙºÁ1
+m
+java:S2095™"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‹ĞÙâ8‡¬ÙºÁ1
+q
+java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+q
+java:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(éÕÆçøÿÿÿÿ8‡¬ÙºÁ1
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+q
+java:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+q
+java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö±Éüşÿÿÿÿ8‡¬ÙºÁ1
+´
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(µÅ•©ıÿÿÿÿ

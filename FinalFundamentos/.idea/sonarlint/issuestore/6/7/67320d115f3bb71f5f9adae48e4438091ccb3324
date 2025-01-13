@@ -1,0 +1,82 @@
+
+F
+java:S3740"/Provide the parametrized type for this generic.(ò÷…ï
+F
+java:S3740"/Provide the parametrized type for this generic.(ò÷…ï
+F
+java:S3740•"/Provide the parametrized type for this generic.(ªáÃÈ
+F
+java:S3740•"/Provide the parametrized type for this generic.(ªáÃÈ
+F
+java:S3740œ"/Provide the parametrized type for this generic.(ª¹õŸ
+F
+java:S3740œ"/Provide the parametrized type for this generic.(ª¹õŸ
+E
+java:S3740£"/Provide the parametrized type for this generic.(”ì€
+E
+java:S3740£"/Provide the parametrized type for this generic.(”ì€
+K
+java:S3740«"/Provide the parametrized type for this generic.(ØÛÂúÿÿÿÿ
+K
+java:S3740«"/Provide the parametrized type for this generic.(ØÛÂúÿÿÿÿ
+F
+java:S3740¾"/Provide the parametrized type for this generic.(Œùù°
+F
+java:S3740¾"/Provide the parametrized type for this generic.(Œùù°
+l
+java:S1192©"PDefine a constant instead of duplicating this literal "Estado registro" 4 times.(—À•»üÿÿÿÿ
+b
+java:S1192>"GDefine a constant instead of duplicating this literal "Serif" 19 times.(“Œ„üÿÿÿÿ
+i
+java:S1192À"MDefine a constant instead of duplicating this literal "Beneficiario" 4 times.(¼ÒÚ™ÿÿÿÿÿ
+e
+java:S1192¿"IDefine a constant instead of duplicating this literal "Afiliado" 3 times.(Ôè´ğúÿÿÿÿ
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ƒ—Áıÿÿÿÿ
+h
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(ÒƒÚ
+Q
+java:S1161´":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161Ô":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161á":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161ë":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161ù":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161†":Add the "@Override" annotation above this method signature(÷—
+Q
+java:S1161“":Add the "@Override" annotation above this method signature(÷—
+H
+java:S1602 ",Remove useless curly braces around statement(¢†á—ÿÿÿÿÿ
+‘
+java:S2159¥"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®—¤Ø
+‘
+java:S2159¥"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®—¤Ø
+‘
+java:S2159¦"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(¤Œ´Š
+‘
+java:S2159¦"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(¤Œ´Š
+–
+java:S2159§"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®óè¡øÿÿÿÿ
+–
+java:S2159§"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®óè¡øÿÿÿÿ
+–
+java:S2159¨"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(Ó´µšøÿÿÿÿ
+‘
+java:S2159¼"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®—¤Ø
+‘
+java:S2159¼"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®—¤Ø
+‘
+java:S2159½"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(¤Œ´Š
+‘
+java:S2159½"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(¤Œ´Š
+–
+java:S2159¾"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®óè¡øÿÿÿÿ
+–
+java:S2159¾"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(®óè¡øÿÿÿÿ
+‘
+java:S2159¿"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(îâ£
+‘
+java:S2159¿"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(îâ£

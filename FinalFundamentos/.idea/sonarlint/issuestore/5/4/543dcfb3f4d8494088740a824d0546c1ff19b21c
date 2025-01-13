@@ -1,0 +1,74 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(óÀŸñÿÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(óÀŸñÿÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(óÀŸñÿÿÿÿÿ
+J
+java:S3740P"/Provide the parametrized type for this generic.(Ëêì‰úÿÿÿÿ
+E
+java:S3740S"/Provide the parametrized type for this generic.(²ÚğÛ
+E
+java:S3740\"/Provide the parametrized type for this generic.(Ï¯µ·
+n
+java:S2293w"YReplace the type specification in this constructor call with the diamond operator ("<>").(à·’B
+o
+java:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(à·’B
+u
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óõà½ÿÿÿÿÿ
+g
+java:S1192¬"PDefine a constant instead of duplicating this literal "Estado registro" 3 times.(–ı» 
+a
+java:S11927"FDefine a constant instead of duplicating this literal "Serif" 4 times.(“Œ„üÿÿÿÿ
+?
+java:S5411§"(Use a primitive boolean expression here.(Ù§­€
+k	java:S116"QRename this field "Titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñöúÿÿÿÿ
+i	java:S116"ORename this field "Espe" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñöúÿÿÿÿ
+i	java:S116"ORename this field "Sede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñöúÿÿÿÿ
+k	java:S116"QRename this field "Consul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñöúÿÿÿÿ
+j	java:S116"PRename this field "CEspe" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÀŸñÿÿÿÿÿ
+j	java:S116"PRename this field "CSede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÀŸñÿÿÿÿÿ
+l	java:S116"RRename this field "CConsul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÀŸñÿÿÿÿÿ
+n	java:S116"TRename this field "Registrar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚›Œÿÿÿÿÿ
+j	java:S116"PRename this field "AOtra" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚›Œÿÿÿÿÿ
+\
+java:S1659"ADeclare "Espe" and all following declarations on a separate line.(½Ñöúÿÿÿÿ
+]
+java:S1659"BDeclare "CSede" and all following declarations on a separate line.(óÀŸñÿÿÿÿÿ
+>
+java:S1659"#Declare "AOtra" on a separate line.(‚›Œÿÿÿÿÿ
+p
+java:S1450"URemove the "Consul" field and declare it as a local variable in the relevant methods.(½Ñöúÿÿÿÿ
+n
+java:S1450"SRemove the "Espe" field and declare it as a local variable in the relevant methods.(½Ñöúÿÿÿÿ
+n
+java:S1450"SRemove the "Sede" field and declare it as a local variable in the relevant methods.(½Ñöúÿÿÿÿ
+p
+java:S1450"URemove the "Titulo" field and declare it as a local variable in the relevant methods.(½Ñöúÿÿÿÿ
+r
+java:S1450"WRemove the "tHorario" field and declare it as a local variable in the relevant methods.(½Ñöúÿÿÿÿ
+J
+java:S1948"(Make "medico" transient or serializable.(ıò³âÿÿÿÿÿ8ÿ÷´ºÁ1
+R
+java:S1948"0Make "especialidades" transient or serializable.(’½€×ÿÿÿÿÿ8€ø´ºÁ1
+N
+java:S1948",Make "controller" transient or serializable.(‚Îõïùÿÿÿÿ8€ø´ºÁ1
+c	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÙõù
+^
+java:S1854w"IRemove this useless assignment to local variable "nombresEspecialidades".(à·’B
+B
+java:S1602y",Remove useless curly braces around statement(İ¦ıÔ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éü›üÿÿÿÿ
+_
+java:S1854„"IRemove this useless assignment to local variable "nombresEspecialidades".(à·’B
+C
+java:S1602†",Remove useless curly braces around statement(é¨…ß
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªš³&
+_
+java:S1854’"CRemove this useless assignment to local variable "iDsConsultorios".(Óõà½ÿÿÿÿÿ
+C
+java:S1602”",Remove useless curly braces around statement(¶ù­Á
+i	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡€ı¶úÿÿÿÿ
+W
+java:S1126"AReplace this if-then-else statement by a single return statement.(µÅœ3

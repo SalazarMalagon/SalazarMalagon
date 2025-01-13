@@ -1,0 +1,31 @@
+
+t
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(äÃùôÿÿÿÿÿ
+]
+java:S1192U"GDefine a constant instead of duplicating this literal "Serif" 12 times.(Ù”¨÷
+K
+java:S1066˜"/Merge this if statement with the enclosing one.(­øÓÅüÿÿÿÿ
+‡
+java:S13195"lThe type of "arregloCitas" should be an interface such as "List" rather than the implementation "ArrayList".(´ñ¿Ûøÿÿÿÿ
+k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ñ¿Ûøÿÿÿÿ
+g
+java:S1104"QMake panel a static final constant or non-public and provide accessors if needed.(á‘ß«
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯¬æ‡
+c	java:S116"NRename this field "TDA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š»Ç
+g	java:S116!"MRename this field "MT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÊÇ«üÿÿÿÿ
+c	java:S116""NRename this field "MMT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‹‡
+j	java:S116#"PRename this field "Fecha" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔŸÌÖşÿÿÿÿ
+k	java:S116$"QRename this field "MFecha" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù²¢àúÿÿÿÿ
+f	java:S116%"LRename this field "H" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¶¬Îüÿÿÿÿ
+g	java:S116&"MRename this field "MH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÈ¾åıÿÿÿÿ
+i	java:S116'"ORename this field "Sede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ†ÆÒÿÿÿÿÿ
+j	java:S116("PRename this field "MSede" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÌÓ¤ùÿÿÿÿ
+i	java:S116)"ORename this field "Dirc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤ùıÿÿÿÿ
+j	java:S116*"PRename this field "MDirc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úù…Œûÿÿÿÿ
+k	java:S116+"QRename this field "Consul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó’³±üÿÿÿÿ
+g	java:S116,"RRename this field "MConsul" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çõ±Ğ
+e	java:S116-"PRename this field "Sigui" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¢Ö©
+d	java:S116."ORename this field "Ante" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠĞµé
+j	java:S116/"PRename this field "Confi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞŠş†ûÿÿÿÿ
+s
+java:S1450"XRemove the "fechaUtil" field and declare it as a local variable in the relevant methods.(ø¹ÿúÿÿÿÿ

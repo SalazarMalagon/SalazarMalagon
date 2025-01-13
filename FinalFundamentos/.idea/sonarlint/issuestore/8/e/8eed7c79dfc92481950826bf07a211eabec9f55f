@@ -1,0 +1,56 @@
+
+J
+java:S3740F"/Provide the parametrized type for this generic.(Úı‰üÿÿÿÿ
+J
+java:S3740^"/Provide the parametrized type for this generic.(ƒİı£ûÿÿÿÿ
+E
+java:S3740¨"/Provide the parametrized type for this generic.(úµÆK
+E
+java:S3740¨"/Provide the parametrized type for this generic.(úµÆK
+o
+java:S2293¨"YReplace the type specification in this constructor call with the diamond operator ("<>").(úµÆK
+u
+java:S2293¶"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌÔ¾ıÿÿÿÿ
+u
+java:S2293·"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò„Éİşÿÿÿÿ
+p
+java:S1192Ó"TDefine a constant instead of duplicating this literal "Estado cancelaciÃ³n" 3 times.(Ë˜şÿÿÿÿ
+a
+java:S1192Ï"JDefine a constant instead of duplicating this literal "    - - -" 3 times.(ŠâùŒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯¬æ‡
+j
+java:S1450""TRemove the "panel" field and declare it as a local variable in the relevant methods.(Ÿ™åÑ
+h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿”Ğ£øÿÿÿÿ
+n
+java:S1450="XRemove the "elijaCita" field and declare it as a local variable in the relevant methods.(ìŠî
+s
+java:S1450<"XRemove the "fechaCita" field and declare it as a local variable in the relevant methods.(ã±¬åüÿÿÿÿ
+w
+java:S1450D"\Remove the "formatterDate" field and declare it as a local variable in the relevant methods.(ƒê „úÿÿÿÿ
+k
+java:S1450>"URemove the "idCita" field and declare it as a local variable in the relevant methods.(É¶ìÍ
+p
+java:S1450;"URemove the "titulo" field and declare it as a local variable in the relevant methods.(€¶Ø¿ıÿÿÿÿ
+c	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“àİ—
+\
+java:S3252`"AUse static access with "javax.swing.SwingConstants" for "CENTER".(âÇèÁşÿÿÿÿ
+Q
+java:S1161—":Add the "@Override" annotation above this method signature(¶øÂÁ
+n
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(åäÓåûÿÿÿÿ
+Q
+java:S1854¨";Remove this useless assignment to local variable "arreglo".(úµÆK
+Z
+java:S1854¶">Remove this useless assignment to local variable "arregloIds".(ÌÔ¾ıÿÿÿÿ
+\
+java:S1854·"@Remove this useless assignment to local variable "arregloTipos".(ò„Éİşÿÿÿÿ
+Z
+java:S1854Ë"CRemove this useless assignment to local variable "fechaPagoMaximo".(ğËï
+–
+java:S2159Ä"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÄÙøÿÿÿÿ
+<
+java:S6326Ï"%Replace spaces with quantifier `{4}`.(ŠâùŒ
+<
+java:S6326Ö"%Replace spaces with quantifier `{4}`.(ŠâùŒ
+<
+java:S6326ñ"%Replace spaces with quantifier `{4}`.(ŠâùŒ

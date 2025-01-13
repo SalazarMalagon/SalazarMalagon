@@ -1,0 +1,14 @@
+
+o
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïΩ≥π
+k	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∫ŒıÜ˙ˇˇˇˇ
+f	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úƒ´·
+k	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’§≤ÿ˙ˇˇˇˇ
+k	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∞ﬂµäˇˇˇˇˇ
+>
+java:S1604K"(Make this anonymous inner class a lambda(–®Å£
+g
+java:S1104"QMake panel a static final constant or non-public and provide accessors if needed.(·ëﬂ´
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø¨Êá
+Q
+java:S1854N";Remove this useless assignment to local variable "arreglo".(ïΩ≥π

@@ -1,0 +1,21 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(óÅñ
+¯
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(µÓÑÚ
+U
+java:S2479(":Remove the non-escaped \u0009 character from this literal.(˜»õûúÿÿÿÿ
+O
+java:S2479)":Remove the non-escaped \u0009 character from this literal.(³şÄ4
+U
+java:S2479*":Remove the non-escaped \u0009 character from this literal.(¸øóùÿÿÿÿ
+U
+java:S2479+":Remove the non-escaped \u0009 character from this literal.(ŒÌ¸Âûÿÿÿÿ
+P
+java:S2479,":Remove the non-escaped \u0009 character from this literal.(â®ï˜
+U
+java:S2479-":Remove the non-escaped \u0009 character from this literal.(ûĞóüúÿÿÿÿ
+P
+java:S2479.":Remove the non-escaped \u0009 character from this literal.(ğƒÃ‡
+P
+java:S2479/":Remove the non-escaped \u0009 character from this literal.(º¤Ÿ¡
