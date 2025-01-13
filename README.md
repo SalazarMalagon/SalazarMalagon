@@ -1,30 +1,43 @@
-☄️ University and Personal Projects
+# ☄️ University and Personal Projects
+
 Welcome to my repository, where I share all the projects I have developed during my university years, along with personal projects I have worked on to improve my skills and explore new technologies.
 
-💡 About the Repository
-This space is dedicated to:
+## 💡 About the Repository
 
-Documenting my academic and professional progress.
-Sharing solutions and projects that might be useful to others.
-Experimenting with innovative ideas and tools.
-🚀 Content
-University Projects
-Simulation of a Health Insurance System (Java)
-Traffic Sign Recognition
-Automatic API Generator
-Simulation of Laboratory Equipment Sales and Leasing
-[Simulation of a Health Insurance System (Python)](/intento_python - copia (2))
-🌐 Technologies Used
-Languages: Python, JavaScript, C++, etc.
-Frameworks: React, FastAPI, Flask, etc.
-Tools: Docker, Git, SQL, etc.
-📊 Objectives
-Gather projects that reflect my knowledge and skills.
-Provide access to useful code and documentation.
-Collaborate with others on interesting projects.
-🔍 Contact
-Email: [anfsalazarm@udistrital.edu.co]
-LinkedIn: [www.linkedin.com/in/andres-salazar-7b4092320]
+This space is dedicated to:
+- Documenting my academic and professional progress.
+- Sharing solutions and projects that might be useful to others.
+- Experimenting with innovative ideas and tools.
+
+## 🚀 Content
+
+### **University Projects**
+- **[Simulation of a Health Insurance System (Java)](/FinalFundamentos)**
+- **[Traffic Sign Recognition]()**
+- **[Automatic API Generator](/Generador-de-APIs-main)**
+- **[Simulation of Laboratory Equipment Sales and Leasing](/Projecto-FIS-main)**
+- **[Simulation of a Health Insurance System (Python)](/intento_python - copia (2))**
+
+## 🌐 Technologies Used
+
+- **Languages**: Python, JavaScript, C++, etc.
+- **Frameworks**: React, FastAPI, Flask, etc.
+- **Tools**: Docker, Git, SQL, etc.
+
+## 📊 Objectives
+
+- Gather projects that reflect my knowledge and skills.
+- Provide access to useful code and documentation.
+- Collaborate with others on interesting projects.
+
+## 🔍 Contact
+
+- **Email**: [anfsalazarm@udistrital.edu.co](mailto:anfsalazarm@udistrital.edu.co)
+- **LinkedIn**: [www.linkedin.com/in/andres-salazar-7b4092320](https://www.linkedin.com/in/andres-salazar-7b4092320)
+
+
+
+
 
 
 # ☄️ Proyectos Universitarios y Personales
