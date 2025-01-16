@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234  # Puedes cambiar la contraseña
+      MYSQL_DATABASE: intento1  # El nombre de tu base de datos
+    volumes:
+      - ./eps/Intento1.sql:/docker-entrypoint-initdb.d/Intento1.sql  # Carga el SQL al iniciar el contenedor
+    ports:
+      - "3306:3306"  # Exponer el puerto 3306 para poder conectarte a la base de datos desde tu máquina
+
+  # python-app:
+  #   build: 
+  #     context: .
+  #     dockerfile: eps.Dockerfile
+  #   container_name: python-app
+  #   depends_on:
+  #     - mysql  # Asegúrate de que MySQL esté listo antes de iniciar tu app
+  #   environment:
+  #     DB_HOST: mysql  # El nombre del servicio de MySQL
+  #     DB_USER: root
+  #     DB_PASSWORD: 1234
+  #     DB_NAME: intento1
+
+networks:
+  api-network:
+    driver: bridge

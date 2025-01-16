@@ -9,7 +9,7 @@ from conexion.DAO import cargar_especialidades_desde_bd, cargar_sedes_desde_bd, 
 
 def abrir_ventana_registro_medico():
     numero_aleatorio = random.randint(10000, 99999)
-    num_consultorio_sede_ale=random.randint(1, 5)
+    num_consultorio_sede_ale=random.randint(1, 2)
 
     def validar_fecha(fecha):
         patron = re.compile(r'^\d{4}-\d{2}-\d{2}$')
@@ -70,45 +70,25 @@ def abrir_ventana_registro_medico():
             especialidad_medico_asignacion=10
 
         sede_asignacion=combobox_sede_asignacion.get()
-        if sede_asignacion=="Sede A":
+        if sede_asignacion=="Sede Central":
             sede_asignacion=1
             consultorio_ale='10' + str(num_consultorio_sede_ale)
             consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede B":
+        if sede_asignacion=="Sede Norte":
             sede_asignacion=2
-            consultorio_ale='20' + str(num_consultorio_sede_ale)
+            consultorio_ale='10' + str(num_consultorio_sede_ale)
             consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede C":
+        if sede_asignacion=="Sede sur":
             sede_asignacion=3
-            consultorio_ale='30' + str(num_consultorio_sede_ale)
+            consultorio_ale='10' + str(num_consultorio_sede_ale)
             consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede D":
+        if sede_asignacion=="Sede Oriente":
             sede_asignacion=4
-            consultorio_ale='40' + str(num_consultorio_sede_ale)
+            consultorio_ale='10' + str(num_consultorio_sede_ale)
             consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede E":
+        if sede_asignacion=="Sede Occidente":
             sede_asignacion=5
-            consultorio_ale='50' + str(num_consultorio_sede_ale)
-            consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede F":
-            sede_asignacion=6
-            consultorio_ale='60' + str(num_consultorio_sede_ale)
-            consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede G":
-            sede_asignacion=7
-            consultorio_ale='70' + str(num_consultorio_sede_ale)
-            consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede H":
-            sede_asignacion=8
-            consultorio_ale='80' + str(num_consultorio_sede_ale)
-            consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede I":
-            sede_asignacion=9
-            consultorio_ale='90' + str(num_consultorio_sede_ale)
-            consultorio= int(consultorio_ale)
-        if sede_asignacion=="Sede J":
-            sede_asignacion=10
-            consultorio_ale='100' + str(num_consultorio_sede_ale)
+            consultorio_ale='10' + str(num_consultorio_sede_ale)
             consultorio= int(consultorio_ale)
         horario_tarde_manana=["Mañana","Tarde"]
         horario_aleatorio=random.choice(horario_tarde_manana)

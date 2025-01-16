@@ -82,8 +82,8 @@ CREATE TABLE Cita
 (
 	k_idcita integer NOT NULL,	-- identificador único para Cita
 	k_tipodecita smallint NOT NULL,
-	h_inicial time(4) without time zone NOT NULL,	-- Hora inicial de la cita
-	h_final time(4) without time zone NOT NULL,	-- Hora final (calculada a partir del tipo) de la cita
+	h_inicial time(4) NOT NULL,	-- Hora inicial de la cita
+	h_final time(4) NOT NULL,	-- Hora final (calculada a partir del tipo) de la cita
 	f_cita date NOT NULL,	-- Dia mes y año de la cita
 	n_estado varchar(13) NOT NULL,	-- Estado de la cita.
 	k_pacienteTipoDocumento varchar(20) NOT NULL,
@@ -100,6 +100,19 @@ CREATE TABLE Consultorio
 	k_sede smallint NOT NULL	-- Identificador unico para Sede
 )
 ;
+INSERT INTO Consultorio (k_consultorio, k_sede)
+VALUES 
+(101, 1),
+(102, 1), 
+(101, 2),
+(102, 2), 
+(101, 3),
+(102, 3),
+(101, 4),
+(102, 4),
+(101, 5),
+(102, 5);  
+
 
 CREATE TABLE Especialidad
 (
@@ -107,6 +120,19 @@ CREATE TABLE Especialidad
 	n_nombre varchar(20) NOT NULL	-- Nombre que recibe la especialidad
 )
 ;
+INSERT INTO Especialidad (k_especialidad, n_nombre)
+VALUES 
+(1, 'Cardiologia'),
+(2, 'Neurologia'),
+(3, 'Pediatria'),
+(4, 'Dermatologia'),
+(5, 'Gastroenterologia'),
+(6, 'Oftalmologia'),
+(7, 'Oncologia'),
+(8, 'Psiquiatria'),
+(9, 'Traumatologia'),
+(10, 'Endocrinologia');
+
 
 CREATE TABLE Especialidad_Medico_Consultorio
 (
@@ -131,9 +157,9 @@ CREATE TABLE Pago
 (
 	k_idcita integer NOT NULL,	-- Identificador único para Cita
 	k_pago integer NOT NULL,	-- Identificador debil para Pago
-	n_estado varchar(15) NOT NULL,	-- Estado del pago (Cancelado, en mora, etc)
-	f_pago timestamp(6) without time zone NOT NULL,	-- Fecha en la que se realizo el pago HH:MM DD/MM/AA
-	f_limitepago timestamp without time zone NOT NULL	-- Fecha máxima permitida para pagar
+	n_estado varchar(20) NOT NULL,	-- Estado del pago (Cancelado, en mora, etc)
+	f_pago timestamp(6) NOT NULL,	-- Fecha en la que se realizo el pago HH:MM DD/MM/AA
+	f_limitepago timestamp NOT NULL	-- Fecha máxima permitida para pagar
 )
 ;
 
@@ -142,7 +168,7 @@ CREATE TABLE Registro
 	k_idcita integer NOT NULL,	-- Identificador único para Cita
 	k_registro integer NOT NULL,	-- Identificador debil para Registro
 	n_diagnostico varchar(200) NOT NULL,	-- Se registra acá lo concluido por el médico
-	n_prescripción varchar(50) NOT NULL	-- Se le receta medicamentos al paciente
+	n_prescripcion varchar(50) NOT NULL	-- Se le receta medicamentos al paciente
 )
 ;
 
@@ -154,6 +180,13 @@ CREATE TABLE Sede
 	n_direccion varchar(50) NOT NULL	-- Dirección donde esta ubicada la sede
 )
 ;
+INSERT INTO Sede (k_sede, n_nombre, q_telefono, n_direccion)
+VALUES 
+(1, 'Sede Central', 31245678, 'Calle 45 #12-34'),
+(2, 'Sede Norte', 31098765, 'Avenida 19 #120-45'),
+(3, 'Sede Sur', 31654321, 'Carrera 10 #98-76'),
+(4, 'Sede Oriente', 31456789, 'Calle 72 #15-88'),
+(5, 'Sede Occidente', 31876543, 'Avenida 68 #80-12');
 
 CREATE TABLE Tipo_de_cita
 (
@@ -318,7 +351,7 @@ ALTER TABLE Sede ADD CONSTRAINT PK_SEDE
 ALTER TABLE Sede 
   ADD CONSTRAINT UK_n_direccion UNIQUE (n_direccion)
 ;
---1
+
 ALTER TABLE Sede 
   ADD CONSTRAINT UK_n_nombre_sede UNIQUE (n_nombre)
 ;
@@ -336,7 +369,7 @@ ALTER TABLE Sede ADD CONSTRAINT CK_q_telefono CHECK (q_telefono > 0)
 ALTER TABLE Tipo_de_cita ADD CONSTRAINT PK_Tipo_de_cita
 	PRIMARY KEY (k_tipodecita)
 ;
---2
+
 ALTER TABLE Tipo_de_cita 
   ADD CONSTRAINT UK_n_nombre_tipo UNIQUE (n_nombre)
 ;
@@ -370,7 +403,7 @@ ALTER TABLE Usuario ADD CONSTRAINT CK_k_tipodocumento CHECK (k_tipodocumento in 
 ;
 
 /* Create Foreign Key Constraints */
---3
+
 ALTER TABLE Afiliado_Beneficiario ADD CONSTRAINT FK_Afiliado_Beneficiario_Afiliado_Beneficiario
 	FOREIGN KEY (k_tipodocumentoafiliado,k_numerodocumentoafiliado) REFERENCES Afiliado_Beneficiario (k_tipodocumento,k_numerodocumento) ON DELETE No Action ON UPDATE No Action
 ;
@@ -378,12 +411,12 @@ ALTER TABLE Afiliado_Beneficiario ADD CONSTRAINT FK_Afiliado_Beneficiario_Afilia
 ALTER TABLE Afiliado_Beneficiario ADD CONSTRAINT FK_Afiliado_Beneficiario_Usuario
 	FOREIGN KEY (k_tipodocumento,k_numerodocumento) REFERENCES Usuario (k_tipodocumento,k_numerodocumento) ON DELETE No Action ON UPDATE No Action
 ;
---4 
+
 ALTER TABLE Agenda ADD CONSTRAINT FK_Agenda_Medico
 	FOREIGN KEY (k_tipodocumento,k_numerodocumento) REFERENCES Medico (k_tipodocumento,k_numerodocumento) ON DELETE No Action ON UPDATE No Action
 ;
 
---5
+
 ALTER TABLE Cita ADD CONSTRAINT FK_Cita_Afiliado_Beneficiario
 	FOREIGN KEY (k_pacienteTipoDocumento,k_pacienteNumeroDocumento) REFERENCES Afiliado_Beneficiario (k_tipodocumento,k_numerodocumento) ON DELETE No Action ON UPDATE No Action
 ;
@@ -407,7 +440,7 @@ ALTER TABLE Especialidad_Medico_Consultorio ADD CONSTRAINT FK_Especialidad_Medic
 ALTER TABLE Especialidad_Medico_Consultorio ADD CONSTRAINT FK_Especialidad_Medico_Consultorio_Especialidad
 	FOREIGN KEY (k_especialidad) REFERENCES Especialidad (k_especialidad) ON DELETE No Action ON UPDATE No Action
 ;
---6
+
 ALTER TABLE Especialidad_Medico_Consultorio ADD CONSTRAINT FK_Especialidad_Medico_Consultorio_Medico
 	FOREIGN KEY (k_tipodocumento,k_numerodocumento) REFERENCES Medico (k_tipodocumento,k_numerodocumento) ON DELETE No Action ON UPDATE No Action
 ;

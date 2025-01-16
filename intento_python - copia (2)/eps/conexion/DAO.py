@@ -1,22 +1,30 @@
 # conexion/DAO.py
 from tkinter import messagebox
-import psycopg2
 from datetime import datetime, time
+import mysql.connector
+from mysql.connector import Error
+import time
+
 
 def conectar_bd():
-    try:
-        conexion = psycopg2.connect(
-            host="localhost",
-            port=5432,
-            user="postgres",
-            password="1234",
-            database="intento2"
-        )
-        print("Conexión a la base de datos exitosa.")
-        return conexion
-    except Exception as e:
-        print(f"Error al conectar a la base de datos: {e}")
-        return None
+    intentos = 5  # Número de intentos
+    for intento in range(intentos):
+        try:
+            conexion = mysql.connector.connect(
+                host="localhost",  # Nombre del servicio de MySQL
+                port=3306,
+                user="root",
+                password="1234",
+                database="intento1"
+            )
+            if conexion.is_connected():
+                print("Conexión a la base de datos exitosa.")
+                return conexion
+        except Error as e:
+            print(f"Intento {intento + 1} de {intentos}: Error al conectar a la base de datos: {e}")
+            time.sleep(5)  # Espera 5 segundos antes de reintentar
+    print("No se pudo establecer la conexión a la base de datos después de varios intentos.")
+    return None
 
 def cerrar_conexion(conexion):
     if conexion:
@@ -193,7 +201,7 @@ def registrar_bd_cita(id_cita, tipos_cita, hora_inicio_str, hora_final_str, fech
                             (id_cita, tipos_cita, hora_inicio_str, hora_final_str, fecha_obj, disponibilidad, tipos_documento_predeterminado, numero_documento_predeterminado, agenda, tipos_documento, numero_documento))
             
             conexion.commit()
-            print("Datos subido a citas")
+            print("Datos subido a correctamente")
     
     except Exception as e:
         print(f"db_c_Error al registrar la agenda en la base de datos: {e}")
@@ -266,12 +274,12 @@ def cargar_sedes_desde_bd():
         conexion = conectar_bd()
         if conexion:
             cursor = conexion.cursor()
-            cursor.execute("SELECT n_nombre FROM sede")
+            cursor.execute("SELECT n_nombre FROM Sede")
             sede = [fila[0] for fila in cursor.fetchall()]
             return sede
         
     except Exception as e:
-        print(f"Error al cargar especialidades desde la base de datos: {e}")
+        print(f"Error al cargar sedes desde la base de datos: {e}")
 
 
 def consultar_sedes_insertar(especialidad_medico_asignacion,tipo_documento, numero_documento, consultorio, sede_asignacion, horario_aleatorio):
@@ -284,7 +292,7 @@ def consultar_sedes_insertar(especialidad_medico_asignacion,tipo_documento, nume
                             (especialidad_medico_asignacion,tipo_documento, numero_documento, consultorio, sede_asignacion, horario_aleatorio))
             
             conexion.commit()
-            print("Datos subido a citas")
+            print("Datos subido a correctamente")
     
     except Exception as e:
         print(f"db_c_Error al registrar la agenda en la base de datos: {e}")
