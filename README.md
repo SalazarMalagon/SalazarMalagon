@@ -58,7 +58,7 @@ Este espacio está destinado a:
 - **[Reconocimiento de Señales de Tránsito]()**
 - **[Generador Automático de APIs](/Generador-de-APIs-main)**
 - **[Simulación de Venta y Arrendamiento de Equipos de Laboratorio](/Projecto-FIS-main)**
-- **[Simulación de una EPS(Python)](/intento_python - copia (2))**
+- **[Simulación de una EPS(Python)](/EPS-Python)**
 
 
 ## 🌐 Tecnologías Utilizadas
